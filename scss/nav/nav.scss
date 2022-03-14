@@ -1,0 +1,49 @@
+nav {
+    max-width: $content-width;
+    margin: 0 auto;
+    background-color: $site-white;
+    border-bottom: 2px solid black;
+    min-height: $nav-footer-height;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        width: 100px;
+        height: 50px;
+    }
+
+
+    .links {
+        a {
+            text-decoration: none;
+            color: black;
+            margin-right: 20px;
+            margin-left: 20px;
+            font-size: 15px;
+            font-family: gillSans;
+        }
+
+        span {
+            color: $site-background;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        .logo {
+            img {
+                width: 85%;
+                height: 85%;
+                margin-left: 5px;
+            }
+        }
+
+        .links {
+            a {
+                margin: 0px 5px;
+            }
+        }
+    }
+}

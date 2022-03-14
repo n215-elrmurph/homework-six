@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  max-width: $content-width;
+  margin: 0 auto;
+
+
+.tour-hero {
+  max-width: $content-width;
+  height: 200px;
+  background-image: url(../..images/tours-header.jpeg);
+}  
+
+
+.book-now-btn {
+  background-color: $site-background;
+  width: 133px;
+  height: 40px;
+  color: $site-white;
+  font-size: 15px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-bottom: 100px;
+
+    p {
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      padding-left: 25px;
+    }
+}
+
+}

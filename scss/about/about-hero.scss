@@ -1,0 +1,27 @@
+.about-hero {
+    max-width: $content-width;
+    height: 413px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(./images/israel/tour-01.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.about-hero-text {
+    position: absolute;
+    font-size: 50px;
+    top: 10px;
+    left: 10px;
+}
+
+.about-price-text {
+    position: absolute;
+    font-size: 20px;
+    
+    right: 10px;
+    bottom: -15px;
+}

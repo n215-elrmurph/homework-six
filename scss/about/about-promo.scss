@@ -1,0 +1,56 @@
+.about-promo {
+    max-width: $content-width;
+    min-height: 304px;
+    display: flex;
+    justify-content: space-between;
+
+    .promo {
+        @include promo();
+        
+         .promo-text {
+            font-size: 24px;
+            color: greenyellow;
+            font-family: sans-serif;
+            margin-bottom: 60px;
+         }
+
+         .read-btn {
+            @include site-button($btnPadding: 10px 30px);
+         }
+    }
+
+    .promo1 {
+      @include promo();
+      background-image: url(./images/israel/israel-tour-01.jpeg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      
+    }
+
+    .promo2 {
+      @include promo();
+      background-image: url(./images/israel/israel-tour-02.jpeg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+     
+    }
+
+    .promo3 {
+      @include promo();
+      background-image: url(./images/israel/israel-tour-03.jpeg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 800px) {
+   .about-promo {
+      flex-direction: column;
+      margin-left: 50px;
+   }
+}
