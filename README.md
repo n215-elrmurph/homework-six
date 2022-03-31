@@ -1,6 +1,6 @@
 # Homework 6
 
-### Web 4 Link to Homework Assignment https://in-info-web4.informatics.iupui.edu/~elrmurph/
+### Web 4 Link to Homework Assignment https://in-info-web4.informatics.iupui.edu/~elrmurph/homework-six/tours.html
 
 ### For this homework assignment, I created the the tour page and the individual tour pages from the Travel-fly prototype. I also made the webpages responsive down to 800px.
 
